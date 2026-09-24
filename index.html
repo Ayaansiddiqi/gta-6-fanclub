@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+  />
+    
 
     <title>Gta VI fanclub</title>
   </head>
@@ -22,7 +26,6 @@
         <a href="#">Countdown</a>
         <a href="#">Signup</a>
       </nav>
-      
 
       <div id="hero">
         <div id="container">
@@ -35,39 +38,67 @@
           </div>
         </div>
       </div>
-    </section>
+      </section>
+   
 
-    <section id="characters">
-      <h3>JASON DUVAL</h3>
-      <div>
-        A skilled criminal trying to build a better life, Jason finds himself
-        pulled deeper into the dangerous world of Leonida.
+    <div class="cardcontainer">
+      
+      <div class="cards">
+        <img src="jason.png" alt="JASON DUVAL" />
+        <div class="cardcontent">
+          <h3>JASON DUVAL</h3>
+          <p>
+            A skilled criminal trying to build a better life, Jason finds
+            himself pulled deeper into the dangerous world of Leonida.
+          </p>
+          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+        </div>
       </div>
-      <h3>Lucia Caminos</h3>
-      <div>
-        Strong-willed and ambitious, Lucia is determined to change her life
-        while navigating the risks of the criminal underworld.Brian Heder
+
+      <div class="cards">
+        <img src="Lucia.png" alt="Lucia Caminos" />
+        <div class="cardcontent">
+          <h3>Lucia Caminos</h3>
+          <p>
+            Strong-willed and ambitious, Lucia is determined to change her life
+            while navigating the risks of the criminal underworld.
+          </p>
+          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+        </div>
       </div>
-      <h3>Brian Heder</h3>
-      <div>
-        A seasoned criminal with connections across Leonida, Brian plays an
-        important role in Jason's life and criminal ventures.
+
+      <div class="cards">
+        <img src="brian.png" alt="Brian Heder" />
+        <div class="cardcontent">
+          <h3>Brian Heder</h3>
+
+          <p>
+            A seasoned criminal with connections across Leonida, Brian plays an
+            important role in Jason's life and criminal ventures.
+          </p>
+          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+        </div>
       </div>
-      <h3>Cal Hampton</h3>
-      <div>
-        Jason's friend and a paranoid conspiracy enthusiast, Cal brings a
-        chaotic and unpredictable energy to the story.
+
+      <div class="cards">
+        <img src="Hampton.png" alt="Cal Hampton" />
+        <div class="cardcontent">
+          <h3>Cal Hampton</h3>
+
+          <p>
+            Jason's friend and a paranoid conspiracy enthusiast, Cal brings a
+            chaotic and unpredictable energy to the story.
+          </p>
+          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+        </div>
       </div>
-    </section>
-    <script>
-      function togglemenu() {
-        document.getElementById("navbar").classList.toggle("active");
-      }
-    </script>
+    </div>
   </body>
   <script>
-    function togglemenu() {
-      document.getElementById("navbar").classList.toggle("active");
-    }
-  </script>
+  document.getElementById("navbar").classList.toggle("active");
+function giveAura(){
+    alert("Aura points Recieved");
+    
+}
+</script>
 </html>
