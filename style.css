@@ -286,8 +286,6 @@ nav a:hover {
   margin-bottom: 10px;
 }
 .aura-btn{
-
-  
   transition: 1.5s;
   margin-top: 20px;
   padding: 2px 8px;
@@ -305,4 +303,28 @@ nav a:hover {
   color: black;
   transform: scale(1.5);
 }
+.trailers{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+ 
+}
+.trailers h3{
+  color: #e044d3;
+   font-size: clamp(1.5rem, 4vw, 2.5rem)
+  
+}
+iframe{
+  width: 60%;
+  max-width: 800px;
+  aspect-ratio: 18 / 9;
+  border: 2px solid #e044d3 ;
+  border-radius: 12px;
+  margin: 12px 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 
+}
+
+.trailer iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}

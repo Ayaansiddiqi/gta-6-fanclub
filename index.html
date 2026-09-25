@@ -8,9 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-  />
-    
+      rel="stylesheet"/>
 
     <title>Gta VI fanclub</title>
   </head>
@@ -20,7 +18,6 @@
       <nav id="navbar" class="active">
         <a href="#">Home</a>
         <a href="#">Characters</a>
-        <a href="#">Map</a>
         <a href="#">Trailer</a>
         <a href="#">Pricing</a>
         <a href="#">Countdown</a>
@@ -38,11 +35,9 @@
           </div>
         </div>
       </div>
-      </section>
-   
+    </section>
 
     <div class="cardcontainer">
-      
       <div class="cards">
         <img src="jason.png" alt="JASON DUVAL" />
         <div class="cardcontent">
@@ -51,7 +46,9 @@
             A skilled criminal trying to build a better life, Jason finds
             himself pulled deeper into the dangerous world of Leonida.
           </p>
-          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+          <button class="aura-btn" onclick="giveAura()">
+            Give Aura Points
+          </button>
         </div>
       </div>
 
@@ -63,7 +60,9 @@
             Strong-willed and ambitious, Lucia is determined to change her life
             while navigating the risks of the criminal underworld.
           </p>
-          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+          <button class="aura-btn" onclick="giveAura()">
+            Give Aura Points
+          </button>
         </div>
       </div>
 
@@ -76,7 +75,9 @@
             A seasoned criminal with connections across Leonida, Brian plays an
             important role in Jason's life and criminal ventures.
           </p>
-          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+          <button class="aura-btn" onclick="giveAura()">
+            Give Aura Points
+          </button>
         </div>
       </div>
 
@@ -89,16 +90,32 @@
             Jason's friend and a paranoid conspiracy enthusiast, Cal brings a
             chaotic and unpredictable energy to the story.
           </p>
-          <button class="aura-btn" onclick="giveAura()">Give Aura Points</button>
+          <button class="aura-btn" onclick="giveAura()">
+            Give Aura Points
+          </button>
         </div>
       </div>
     </div>
-  </body>
-  <script>
+
+
+  <div class="trailers">
+    <h3>Trailers&#128293;</h3>
+   
+<iframe src="https://www.youtube.com/embed/QdBZY2fkU-0" title="GTA VI Trailer" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+    <iframe src="https://youtube.com/embed/VQRLujxTm3c?si=xrLaqfgzj51evXUu" frameborder="0"></iframe>
+    <h3>Gameplay&#127918; </h3>
+    <iframe src="https://youtube.com/embed/kcN1oGfJzIM?si=1Y8ipX5T9tQ7Zxvu" frameborder="0"></iframe>
+
+
+    <script>
+     function togglemenu() {
   document.getElementById("navbar").classList.toggle("active");
-function giveAura(){
-    alert("Aura points Recieved");
-    
 }
-</script>
+      function giveAura() {
+        alert("Aura points Recieved");
+      }
+    </script>
+  </body>
 </html>
